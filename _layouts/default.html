@@ -3,18 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title>Camila's Online Portfolio</title>
+        <link href="{{site.baseurl}}/css/somuchstyle.css" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,531;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,531;1,600;1,700;1,800;1,900&display=swap');
+        </style>
     </head>
     <body>
         <header>
-            <nav>
-                <ul>
-                    <li> <a href="{{site.baseurl}}index.html">Home</a></li>
-                    <li> <a href="{{site.baseurl}}about.html">About</a></li>
-                    <li> <a href="{{site.baseurl}}work.html">Work</a></li>
-                    <li> <a href="{{site.baseurl}}contacts.html">Contacts</a></li>
-                </ul>
-            </nav>
+            {% include nav.html %}
         </header>
         {{content}}
+        <footer>
+            {% include nav.html %}
+        </footer>
     </body>
 </html>
