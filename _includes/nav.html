@@ -1,8 +1,6 @@
-<nav>
-    <ul>
-        <li> <a class="{% if page.url == '/index.html' %}navitems{% endif %}" href="{{site.baseurl}}index.html">Home</a></li>
-        <li> <a class="{% if page.url == '/about.html' %}navitems{% endif %}" href="{{site.baseurl}}about.html">About</a></li>
-        <li> <a class="{% if page.url == '/work.html' %}navitems{% endif %}" href="{{site.baseurl}}work.html">Work</a></li>
-        <li> <a class="{% if page.url == '/contacts.html' %}navitems{% endif %}" href="{{site.baseurl}}contacts.html">Contacts</a></li>
-    </ul>
-</nav>
+<h2>{{ site.data.samplelist.docs_list_title }}</h2>
+<ul>
+   {% for item in site.data.samplelist.docs %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+   {% endfor %}
+</ul>
