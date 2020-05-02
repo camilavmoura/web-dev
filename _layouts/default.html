@@ -1,17 +1,20 @@
+---
+title: Portfolio
+sidebar: doc
+---
+
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Camila's Online Portfolio</title>
-        <link href="{{site.baseurl}}/css/somuchstyle.css" rel="stylesheet">
-    </head>
+  
+    {% include head.html %}
+    
     <body>
-        <header>
-            <h1>Tapete</h1>
-            {% include nav.html %}
-        </header>
+        
+        {% include header.html %}
+        
         {{content}}
-        <footer>
-        </footer>
+        
+        {% include footer.html %}
+        
     </body>
 </html>
