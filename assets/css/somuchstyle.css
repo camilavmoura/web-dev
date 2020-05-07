@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Bebas Neue", Arial, sans-serif;
-    background-image: url(tapete.png);
+    background-image: url(../images/tapete.png);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -42,10 +42,6 @@ ul {
     font-size: 24px;
     line-height: 42px;
     display: inline-block;
-}
-
-header a {
-    background: none;
 }
 
 a {
