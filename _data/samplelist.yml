@@ -2,13 +2,13 @@ docs_list_title: ""
 docs:
 
 - title: Home
-  url: index.html
+  url: index.md
 
 - title: About
-  url: about.html
+  url: about.md
 
 - title: Work
-  url: work.html
+  url: work.md
   
 - title: Contacts
-  url: contacts.html
+  url: contacts.md
