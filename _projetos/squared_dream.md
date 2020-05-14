@@ -1,6 +1,7 @@
 ---
 title: "Squared Dream"
 layout: projeto
+image: "/assets/images/14.png"
 ---
 
 <p>What is there beyond dreams? Beyond the imagination, beyond thought?</p>

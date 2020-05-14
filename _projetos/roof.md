@@ -1,6 +1,7 @@
 ---
 title: Roof
 layout: projeto
+image: "/assets/images/texto1.png"
 ---
            
 <p><em>Roof</em> exposes the two poles of social marginality in the urban tissue, that despite its' opposite characteristics and personas, are very much alike.</p>

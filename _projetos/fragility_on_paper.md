@@ -1,6 +1,7 @@
 ---
 title: "Fragility on Paper"
 layout: projeto
+image: "/assets/images/15.png"
 ---
 
 <p>The fragility of the material, of the capital, of consumerism. Everything ends.</p>

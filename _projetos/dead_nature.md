@@ -1,11 +1,12 @@
 ---
 title: "Dead Nature"
 layout: projeto
+image: "/assets/images/6.jpg"
 ---
 
 <p>Keeping faithful to the beauty of dead nature, it was asked to make a colection of experimental pieces where — with dfierents styles and techniques — graphic exploration was used as method and application.</p>
 
-<img src="{{site.baseurl}}/assets/images/6.jpg" alt="China Ink painting of a stick with lots of small leaves" title="China Ink painting of a stick with lots of small leaves">
+<img src="{{site.baseurl}}/assets/images/6.png" alt="China Ink painting of a stick with lots of small leaves" title="China Ink painting of a stick with lots of small leaves">
 
 <img src="{{site.baseurl}}/assets/images/7.png" alt="China Ink painting of a tree" title="China Ink painting of a tree">
 

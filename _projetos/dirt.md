@@ -1,6 +1,7 @@
 ---
 title: "Dirt"
 layout: projeto
+image: "/assets/images/12.png"
 ---
  
 <p>The ambiguity of the idea of "dirt" — representation of an old building and it's dirty front: old, or art?</p>
