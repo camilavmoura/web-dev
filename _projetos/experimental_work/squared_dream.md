@@ -2,6 +2,8 @@
 title: "Squared Dream"
 layout: projeto
 image: "/assets/images/14.png"
+category: experimental_work
+permalink: /projetos/squared_dream/
 ---
 
 <p>What is there beyond dreams? Beyond the imagination, beyond thought?</p>

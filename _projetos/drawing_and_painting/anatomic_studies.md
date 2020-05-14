@@ -2,6 +2,8 @@
 title: "Anatomic Studies"
 layout: projeto
 image: "/assets/images/10.png"
+category: drawing_and_painting
+permalink: /projetos/anatomic_studies/
 ---
 
 <p>Simple portraits (both fontal and profile perspectives) as a corporal anatomy study, avoiding representations of the idealization of the Human body and keeping up with real proportions.</p>

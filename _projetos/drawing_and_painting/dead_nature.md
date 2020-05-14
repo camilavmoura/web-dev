@@ -2,6 +2,8 @@
 title: "Dead Nature"
 layout: projeto
 image: "/assets/images/6.jpg"
+category: drawing_and_painting
+permalink: /projetos/dead_nature/
 ---
 
 <p>Keeping faithful to the beauty of dead nature, it was asked to make a colection of experimental pieces where — with dfierents styles and techniques — graphic exploration was used as method and application.</p>

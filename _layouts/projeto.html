@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Projetos
 ---
 
 <h2>{{page.title}}</h2>
@@ -7,7 +8,7 @@ layout: default
     <ul>
         {% for trabalho in site.projetos %}
         <li>
-            <a href={{site.baseurl}}/projetos/{{trabalho.slug}}>{{trabalho.title}}</a>        
+            <a href="{{site.baseurl}}/projetos/{{trabalho.slug}}">{{trabalho.title}}</a>        
         </li>    
         {% endfor %}
     </ul>
