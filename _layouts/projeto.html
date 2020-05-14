@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h2>{{page.title}}</h2>
+<nav>
+    <ul>
+        {% for projetos in site.projetos %}
+        <li>
+            <a href={{site.baseurl}}/projetos/{{projetos.slug}}>{{projetos.title}}</a>        
+        </li>    
+        {% endfor %}
+    </ul>
+</nav>
+
+{{content}}
