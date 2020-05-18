@@ -1,8 +1,10 @@
 <h2>{{site.data.samplelist.docs_list_title}}</h2>
 <ul>
-   {% for item in site.data.samplelist.docs %}
+    {% unless page.url contains "projetos" %}
+    {% for item in site.data.samplelist.docs %}
     <li class="{% if item.url == page.url %}active{% endif %}">
         <a href="{{site.baseurl}}/{{item.url}}">{{item.title}}</a>
     </li>
-   {% endfor %}    
+    {% endfor %}    
+    {% endunless %}
 </ul>

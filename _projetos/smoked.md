@@ -1,10 +1,12 @@
 ---
 title: "Smoked"
-layout: projeto
-image: "/assets/images/fotograma3.png"
+layout: default
+img: "assets/images/fotograma3.png"
 category: photography
 permalink: /projetos/smoked/
 ---
+
+{% include return_to_work.html %}
 
 <p>The cigarette is one of the biggest global vices. Is it the pleasureable smoke entering the lungs? Is the the tingleing sensation you get in your fingers that so naturally interlace the cigarette?</p>
 

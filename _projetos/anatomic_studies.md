@@ -1,10 +1,12 @@
 ---
 title: "Anatomic Studies"
-layout: projeto
-image: "/assets/images/10.png"
+layout: default
+img: "assets/images/10.png"
 category: drawing_and_painting
 permalink: /projetos/anatomic_studies/
 ---
+
+{% include return_to_work.html %}
 
 <p>Simple portraits (both fontal and profile perspectives) as a corporal anatomy study, avoiding representations of the idealization of the Human body and keeping up with real proportions.</p>
             
@@ -24,6 +26,6 @@ permalink: /projetos/anatomic_studies/
 
 <img src="{{site.baseurl}}/assets/images/24.png" alt="Anatomic studies/paintings — a female upper body | Black, brown, red and white Charcoal" title="Anatomic studies/paintings — a female upper body | Black, brown, red and white Charcoal">
 
-<img src="{{site.baseurl}}/assets/images/25.png" alt="Anatomic studies/paintings — a female body | Black, brown, red and white Charcoal" title=Anatomic studies/paintings — a female body | Black, brown, red and white Charcoal>
+<img src="{{site.baseurl}}/assets/images/25.png" alt="Anatomic studies/paintings — a female body | Black, brown, red and white Charcoal" title="Anatomic studies/paintings — a female body | Black, brown, red and white Charcoal">
 
 <img src="{{site.baseurl}}/assets/images/26.png" alt="Anatomic studies/paintings — a female body | Black, brown, red and white Charcoal" title="Anatomic studies/paintings — a female body | Black, brown, red and white Charcoal">

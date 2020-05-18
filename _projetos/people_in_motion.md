@@ -1,10 +1,12 @@
 ---
 title: "People in Motion"
-layout: projeto
-image: "/assets/images/IMG_3538.png"
+layout: default
+img: "assets/images/IMG_3538.png"
 category: graphic_design
 permalink: /projetos/people_in_motion/
 ---
+        
+{% include return_to_work.html %}
         
 <p><em>People in Motion</em> was a project in which — after the free selecion of a playlist — was made a <em>packaging</em> in a "Special Edition" mode, that would conjugate with the playlist's theme itself.</p>
 
