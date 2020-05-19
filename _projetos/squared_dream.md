@@ -12,4 +12,4 @@ What is there beyond dreams? Beyond the imagination, beyond thought?
 
 There is no colour; there is no shape; there is no space — there is nothing. There is everything.
 
-<img src="{{site.baseurl}}/assets/images/14.png" alt="Abstract colourful painting with white shapes' contours and black cicles" title="Abstract colourful painting with white shapes' contours and black cicles">
+![Abstract colourful painting — white shapes' contours, overlaid with a colourful and bright acrylic palette, with nested shiny black cicles on top]({{site.baseurl}}/assets/images/14.png "Squared Dreams — what is our imagination's limit?")
