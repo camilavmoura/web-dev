@@ -6,4 +6,4 @@ collections:
     projetos:
         output: true
         permalink: /projetos/:categories/:path/
-        
+        sort_by: category

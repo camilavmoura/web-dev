@@ -19,15 +19,15 @@ I hope you have a good time looking through this page, you will have a variety o
 Feel free to contact me for any questions or requests — and most of all, enjoy!
 
 ### FORMATION
-— Graduated Communication Design in Faculdade de Belas-Artes of ULisboa
-— Currently attending the post-graduation +Digital Experience Design*, where I can consolidate all my studies of my graduation and get ready to begin working in the area.
+- Graduated Communication Design in Faculdade de Belas-Artes of ULisboa
+- Currently attending the post-graduation *Digital Experience Design*, where I can consolidate all my studies of my graduation and get ready to begin working in the area.
 
 ### CAPACITIES
-— Fluent Portuguese, English and French speaker. Good communication in Spanish aswell.
-— Photoshop (advanced)
-— Illustrator (advanced)
-— InDesign (advances)
-— Audacity (intermediate)
-— Première Pro (intermediate)
-— Adobe Xd (advanced)
-— HTML & CSS (beginner)
+- Fluent Portuguese, English and French speaker. Good communication in Spanish aswell.
+- Photoshop (advanced)
+- Illustrator (advanced)
+- InDesign (advances)
+- Audacity (intermediate)
+- Première Pro (intermediate)
+- Adobe Xd (advanced)
+- HTML & CSS (beginner)

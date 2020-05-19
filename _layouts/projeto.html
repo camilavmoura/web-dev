@@ -3,20 +3,30 @@ layout: default
 title: Projetos
 ---
 
+{{content}}
+
 <nav>
+    
     <ul>
+        
         {% for trabalho in site.projetos %}
+        
         <li>
+            
             <h3>{{trabalho.title}}</h3>
+            
             <a href="{{site.baseurl}}/{{trabalho.url}}">
+            
                 <img src="{{site.baseurl}}/{{trabalho.img}}" alt="{{trabalho.simgdescription}}">
+        
             </a>
+    
         </li>    
+
         {% endfor %}
+
     </ul>
+
 </nav>
 
 <h2>{{page.title}}</h2> 
-
-
-{{content}}
