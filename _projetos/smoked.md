@@ -3,10 +3,7 @@ title: Smoked
 layout: default
 img: fotograma3
 category: photography
-permalink: smoked/
 ---
-
-{% include return_to_work.html %}
 
 The cigarette is one of the biggest global vices. Is it the pleasureable smoke entering the lungs? Is the the tingleing sensation you get in your fingers that so naturally interlace the cigarette?
 

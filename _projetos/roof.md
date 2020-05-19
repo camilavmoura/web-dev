@@ -1,12 +1,9 @@
 ---
 title: Roof
-layout: default
+layout: projeto
 img: tecto1
 category: graphic_design
-permalink: roof/
 ---
-
-{% include return_to_work.html %}
 
 *Roof* exposes the two poles of social marginality in the urban tissue, that despite its' opposite characteristics and personas, are very much alike.
 

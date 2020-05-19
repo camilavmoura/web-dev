@@ -1,12 +1,9 @@
 ---
 title: "Fragility on Paper"
-layout: default
+layout: projeto
 img: 15
 category: experimental_work
-permalink: fragility_on_paper/
 ---
-
-{% include return_to_work.html %}
 
 The fragility of the material, of the capital, of consumerism. Everything ends.
 

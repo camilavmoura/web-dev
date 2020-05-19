@@ -1,11 +1,9 @@
 ---
 title: "Drawing and Editing"
-layout: default
+layout: projeto
 img: 3
 category: drawing_and_editing
 ---
-
-{% include return_to_work.html %}
 
 Through a series of models and sceneries with randomly allocated books, a study was made as an exploration of transparency, overlays, outlines, graphic stains and colour.
 

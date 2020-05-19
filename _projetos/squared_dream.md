@@ -3,10 +3,7 @@ title: "Squared Dream"
 layout: default
 img: 14
 category: experimental_work
-permalink: squared_dream/
 ---
-
-{% include return_to_work.html %}
 
 What is there beyond dreams? Beyond the imagination, beyond thought?
 

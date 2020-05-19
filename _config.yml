@@ -5,5 +5,5 @@ exclude: [assets/css/somuchstyle.css]
 collections:
     projetos:
         output: true
-        permalink: /projetos/:categories/:path/
+        permalink: projetos/:categories/:path/
         sort_by: category

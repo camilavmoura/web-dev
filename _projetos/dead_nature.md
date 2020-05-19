@@ -1,12 +1,9 @@
 ---
 title: "Dead Nature"
-layout: default
+layout: projeto
 img: 6
 category: drawing_and_painting
-permalink: dead_nature/
 ---
-
-{% include return_to_work.html %}
 
 Keeping faithful to the beauty of dead nature, it was asked to make a colection of experimental pieces where — with dfierents styles and techniques — graphic exploration was used as method and application.
 

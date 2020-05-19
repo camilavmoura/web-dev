@@ -2,8 +2,6 @@
 
 <ul>
  
-    {% unless page.url contains "projetos" %}
- 
     {% for item in site.data.samplelist.toc %}
  
     <li class="{% if item.url == page.url %}active{% endif %}">
@@ -12,10 +10,12 @@
         
         <ul>
             
-            {% for area in item.subfolderitems %}
+            {% for subfolderitem in item.subfolderitems %}
             
             <li>
-                <a href="{{site.baseurl}}/{{area.url}}">{{area.page}}</a>
+                
+                <a href="{{site.baseurl}}/{{subfolderitem.url}}">{{subfolderitem.page}}</a>
+                
             </li>
             
             {% endfor %}
@@ -25,7 +25,5 @@
     </li>
   
     {% endfor %}    
-  
-    {% endunless %}
 
 </ul>

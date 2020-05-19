@@ -1,16 +1,15 @@
 ---
 layout: default
-title: Projetos
+title: Categoria
 ---
-
-{{content}}
-
 
 <nav>
     
     <ul>
         
         {% for projeto in site.projetos %}
+        
+        {% if page.category == projeto.category %}
         
         <li>
             
@@ -22,12 +21,15 @@ title: Projetos
         
             </a>
     
-        </li>    
+        </li>
 
+        {% endif %}
+        
         {% endfor %}
-
+        
     </ul>
 
 </nav>
 
 <h2>{{page.title}}</h2> 
+

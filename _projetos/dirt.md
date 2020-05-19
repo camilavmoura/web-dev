@@ -1,12 +1,9 @@
 ---
 title: "Dirt"
-layout: default
+layout: projeto
 img: 12
 category: experimental_work
-permalink: /projetos/dirt/
 ---
-
-{% include return_to_work.html %}
 
 The ambiguity of the idea of "dirt" — representation of an old building and it's dirty front: old, or art?
             

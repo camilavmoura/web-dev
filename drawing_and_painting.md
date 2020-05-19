@@ -1,5 +1,5 @@
 ---
 title: "Drawing & Painting"
-layout: default
+layout: categoria
+category: drawing_and_painting
 ---
-KQ4BFAW

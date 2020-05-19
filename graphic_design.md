@@ -1,5 +1,5 @@
 ---
 title: Graphic Design
-layout: default
+layout: categoria
+category: graphic_design
 ---
-kbhwaenaw

@@ -1,6 +1,5 @@
 ---
 title: Photography
-layout: default
+layout: categoria
+category: photography
 ---
-
-krabewfkjn
