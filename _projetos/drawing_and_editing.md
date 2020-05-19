@@ -1,9 +1,8 @@
 ---
 title: "Drawing and Editing"
 layout: default
-img: "assets/images/3.png"
-category: drawing_and_painting
-permalink: /projetos/drawing_and_editing/
+img: 3
+category: drawing_and_editing
 ---
 
 {% include return_to_work.html %}

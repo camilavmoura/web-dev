@@ -1,9 +1,9 @@
 ---
 title: "Squared Dream"
 layout: default
-img: "assets/images/14.png"
+img: 14
 category: experimental_work
-permalink: /projetos/squared_dream/
+permalink: squared_dream/
 ---
 
 {% include return_to_work.html %}

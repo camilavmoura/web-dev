@@ -1,9 +1,9 @@
 ---
 title: Smoked
 layout: default
-img: "assets/images/fotograma3.png"
+img: fotograma3
 category: photography
-permalink: /projetos/smoked/
+permalink: smoked/
 ---
 
 {% include return_to_work.html %}

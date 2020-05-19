@@ -1,9 +1,9 @@
 ---
 title: "People in Motion"
 layout: default
-img: "assets/images/IMG_3538.png"
+img: IMG_3538
 category: graphic_design
-permalink: /projetos/people_in_motion/
+permalink: people_in_motion/
 ---
         
 {% include return_to_work.html %}

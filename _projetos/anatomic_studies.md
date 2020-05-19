@@ -1,9 +1,9 @@
 ---
 title: "Anatomic Studies"
 layout: default
-img: "assets/images/10.png"
+img: 10
 category: drawing_and_painting
-permalink: /projetos/anatomic_studies/
+permalink: anatomic_studies/
 ---
 
 {% include return_to_work.html %}

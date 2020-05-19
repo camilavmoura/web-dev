@@ -1,7 +1,7 @@
 ---
 title: "Dirt"
 layout: default
-img: "assets/images/12.png"
+img: 12
 category: experimental_work
 permalink: /projetos/dirt/
 ---

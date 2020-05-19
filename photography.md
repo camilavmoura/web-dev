@@ -1,3 +1,6 @@
 ---
-layout: projeto
+title: Photography
+layout: default
 ---
+
+krabewfkjn

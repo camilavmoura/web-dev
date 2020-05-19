@@ -1,3 +1,5 @@
 ---
-layout: projeto
+title: Graphic Design
+layout: default
 ---
+kbhwaenaw

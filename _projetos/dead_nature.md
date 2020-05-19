@@ -1,9 +1,9 @@
 ---
 title: "Dead Nature"
 layout: default
-img: "assets/images/6.png"
+img: 6
 category: drawing_and_painting
-permalink: /projetos/dead_nature/
+permalink: dead_nature/
 ---
 
 {% include return_to_work.html %}

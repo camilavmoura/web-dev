@@ -1,9 +1,9 @@
 ---
 title: "Fragility on Paper"
 layout: default
-img: "assets/images/15.png"
+img: 15
 category: experimental_work
-permalink: /projetos/fragility_on_paper/
+permalink: fragility_on_paper/
 ---
 
 {% include return_to_work.html %}

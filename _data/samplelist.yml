@@ -1,23 +1,23 @@
-docs_list_title: ""
-docs:
+toc_list_title: ""
+toc:
 
 - title: Home
-  url: index.html
+  url: index
 
 - title: About
-  url: about.html
+  url: about
 
 - title: Work
-  url: work.html
+  url: work
   subfolderitems:
-    - page: Painting & Drawing
-      url: painting_and_drawing.html
+    - page: Drawing & Painting
+      url: drawing_and_painting
     - page: Graphic Design
-      url: graphic_design.html
+      url: graphic_design
     - page: Photography
-      url: photography.html
+      url: photography
     - page: Experimental Work
-      url: experimental_work.html
+      url: experimental_work
   
 - title: Contacts
-  url: contacts.html
+  url: contacts

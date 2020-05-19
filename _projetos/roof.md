@@ -1,9 +1,9 @@
 ---
 title: Roof
 layout: default
-img: "assets/images/tecto1.png"
+img: tecto1
 category: graphic_design
-permalink: /projetos/roof/
+permalink: roof/
 ---
 
 {% include return_to_work.html %}
