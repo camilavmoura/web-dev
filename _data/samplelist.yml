@@ -9,6 +9,15 @@ docs:
 
 - title: Work
   url: work.html
+  subfolderitems:
+    - page: Painting & Drawing
+      url: painting_and_drawing.html
+    - page: Graphic Design
+      url: graphic_design.html
+    - page: Photography
+      url: photography.html
+    - page: Experimental Work
+      url: experimental_work.html
   
 - title: Contacts
   url: contacts.html

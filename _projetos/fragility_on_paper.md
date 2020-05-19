@@ -3,7 +3,6 @@ title: "Fragility on Paper"
 layout: default
 img: "assets/images/15.png"
 category: experimental_work
-category: drawing_and_painting
 permalink: /projetos/fragility_on_paper/
 ---
 

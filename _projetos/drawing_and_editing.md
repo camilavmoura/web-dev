@@ -2,7 +2,6 @@
 title: "Drawing and Editing"
 layout: default
 img: "assets/images/3.png"
-category: experimental_work
 category: drawing_and_painting
 permalink: /projetos/drawing_and_editing/
 ---
