@@ -1,9 +1,14 @@
-baseurl: /portfolio
 exclude: [README.md]
 exclude: [assets/css/somuchstyle.css]
+
+title: Tapete — Portfolio
+email: camilavilelam@gmail.com
+description: This is the portfolio of Camila Moura, which was designed and programme from scratch using HTML, SCSS, Jekyll and Github.
+baseurl: /portfolio
+linkedin_username: camilavmoura
+behance_username: camilavmoura
 
 collections:
     projetos:
         output: true
-        permalink: projetos/:categories/:path/
-        sort_by: category
+        permalink: projetos/:path/
