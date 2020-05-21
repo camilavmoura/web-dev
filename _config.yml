@@ -11,4 +11,4 @@ behance_username: camilavmoura
 collections:
     projetos:
         output: true
-        permalink: projetos/:path/
+        permalink: /projetos/:path/

@@ -3,12 +3,15 @@ toc:
 
 - title: Home
   url: index
+  icon: home
 
 - title: About
   url: about
+  icon: about
 
 - title: Work
   url: work
+  icon: work
   subfolderitems:
     - page: Drawing & Painting
       url: drawing_and_painting
@@ -21,3 +24,4 @@ toc:
   
 - title: Contacts
   url: contacts
+  icon: info

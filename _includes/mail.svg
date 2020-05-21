@@ -1,0 +1,27 @@
+<svg 
+     width="24"
+     xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 24 24">
+    
+    <defs>
+        
+        <style>
+            .b{fill:none;
+            stroke:#000;
+            stroke-linecap:round;
+            stroke-linejoin:round;}
+        </style>
+    
+    </defs>
+    
+    <title>mail</title>
+    
+    <rect class="b" x="1.5" y="4.5" width="21" height="15" rx="1.88"/>
+    
+    <path class="b" d="M3.5,6.5l7.08,7.08a2,2,0,0,0,2.84,0L20.5,6.5"/>
+    
+    <line class="b" x1="3.5" y1="17.5" x2="7.5" y2="13.5"/>
+    
+    <line class="b" x1="16.5" y1="13.5" x2="20.5" y2="17.5"/>
+
+</svg>

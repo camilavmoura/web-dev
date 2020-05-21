@@ -1,0 +1,27 @@
+<svg 
+     width="24"
+     xmlns="http://www.w3.org/2000/svg" 
+     viewBox="0 0 24 24">
+    
+    <defs>
+        
+        <style>
+            .b{fill:none;
+            stroke:#000;
+            stroke-linecap:round;
+            stroke-linejoin:round;}
+        </style>
+    
+    </defs>
+    
+    <title>info</title>
+    
+    <circle class="b" cx="12" cy="12" r="10.5"/>
+    
+    <circle class="b" cx="12" cy="7" r="0.5"/>
+    
+    <path class="b" d="M10.5,10.5H11a1,1,0,0,1,1,1v6"/>
+    
+    <line class="b" x1="10.5" y1="17.5" x2="13.5" y2="17.5"/>
+
+</svg>
