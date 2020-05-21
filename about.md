@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{::comment} <span class="anchor" id="whoami"></span> {:/comment}
-
 First of all, welcome!
 
 My name is Camila, and I am currently doing a post-graduation in *Digital Experience Design*, in Lisbon.
