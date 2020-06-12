@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: "SF Pro display", Arial;
+    font-weight: 400;
 } 
 
 body {
@@ -35,6 +36,9 @@ main img {
     object-fit: contain;
 }
 
+main p {
+    padding: 20px 0;
+}
 
 footer {
     bottom: 0;
