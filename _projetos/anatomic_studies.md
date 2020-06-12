@@ -1,6 +1,6 @@
 ---
 title: "Anatomic Studies"
-layout: projeto
+layout: default
 img: 10
 category: drawing_and_painting
 ---

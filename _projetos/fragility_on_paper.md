@@ -1,6 +1,6 @@
 ---
 title: "Fragility on Paper"
-layout: projeto
+layout: default
 img: 15
 category: experimental_work
 ---

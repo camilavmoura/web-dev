@@ -1,29 +1,31 @@
-<h2>{{site.data.samplelist.docs_list_title}}</h2>
+<div class="tab-container">
+    
+    <ul>
 
-<ul>
- 
-    {% for item in site.data.samplelist.toc %}
- 
-    <li>
- 
-        <a href="{{site.baseurl}}/{{item.url}}">{% include {{item.icon}}.svg %} {{item.title}}</a> 
-        
-        <ul>
-            
-            {% for subfolderitem in item.subfolderitems %}
-            
-            <li>
-                
-                <a href="{{site.baseurl}}/{{subfolderitem.url}}">{{subfolderitem.page}}</a>
-                
-            </li>
-            
-            {% endfor %}
-                
-        </ul>
-        
-    </li>
-  
-    {% endfor %}    
+        {% for item in site.data.samplelist.toc %}
 
-</ul>
+        <li class="folder-items">
+
+            <a href="{{site.baseurl}}/{{item.url}}">{{item.title}}</a> 
+
+            <ul>
+
+                {% for subfolderitem in item.subfolderitems %}
+
+                <li class="subfolder-items">
+
+                    <a href="{{site.baseurl}}/{{subfolderitem.url}}">{{subfolderitem.page}}</a>
+
+                </li>
+
+                {% endfor %}
+
+            </ul>
+
+        </li>
+
+        {% endfor %}    
+
+    </ul>
+    
+</div>

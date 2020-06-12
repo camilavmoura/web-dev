@@ -1,6 +1,6 @@
 ---
 title: Roof
-layout: projeto
+layout: default
 img: tecto1
 category: graphic_design
 ---

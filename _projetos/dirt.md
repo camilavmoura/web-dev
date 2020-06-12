@@ -1,6 +1,6 @@
 ---
 title: "Dirt"
-layout: projeto
+layout: default
 img: 12
 category: experimental_work
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Dead Nature"
-layout: projeto
+layout: default
 img: 6
 category: drawing_and_painting
 ---

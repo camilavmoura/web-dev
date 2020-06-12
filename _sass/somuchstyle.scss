@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "SF Pro display", Arial;
+} 
+
+body {
+    padding: 0;
+    display: flex;
+}
+
+header {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    background-color: white;
+    opacity: 90%;
+}
+
+.logo-img {
+    height: 30px;
+    padding: 20px;
+    background-color: white;
+}
+
+main {
+    width: 90vw;
+    margin: 100px 16px;
+}
+
+main img {
+    width: 90vw;
+    object-fit: contain;
+}
+
+
+footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+}
+
+.folder-items {
+    width: 30vw;
+    padding: 20px 0;
+    display: inline-block;
+    position: sticky;
+    text-align: center;
+}
+
+
+.subfolder-items {
+    display: none;
+}

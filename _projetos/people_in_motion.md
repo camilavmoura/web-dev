@@ -1,6 +1,6 @@
 ---
 title: "People in Motion"
-layout: projeto
+layout: default
 img: IMG_3538
 category: graphic_design
 ---

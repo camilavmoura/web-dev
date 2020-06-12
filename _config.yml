@@ -12,3 +12,6 @@ collections:
     projetos:
         output: true
         permalink: /projetos/:path/
+        
+sass:
+    sass_dir: _sass

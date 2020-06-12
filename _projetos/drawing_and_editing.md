@@ -1,6 +1,6 @@
 ---
 title: "Drawing and Editing"
-layout: projeto
+layout: default
 img: 3
 category: drawing_and_editing
 ---
