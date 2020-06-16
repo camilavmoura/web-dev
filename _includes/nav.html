@@ -1,31 +1,27 @@
-<div class="tab-container">
-    
-    <ul>
+<ul class="nav-list">
 
-        {% for item in site.data.samplelist.toc %}
+    {% for item in site.data.samplelist.toc %}
 
-        <li class="folder-items">
+    <li class="folder-items">
 
-            <a href="{{site.baseurl}}/{{item.url}}">{{item.title}}</a> 
+        <a href="{{site.baseurl}}/{{item.url}}">{{item.title}}</a> 
 
-            <ul>
+        <ul>
 
-                {% for subfolderitem in item.subfolderitems %}
+            {% for subfolderitem in item.subfolderitems %}
 
-                <li class="subfolder-items">
+            <li class="subfolder-items">
 
-                    <a href="{{site.baseurl}}/{{subfolderitem.url}}">{{subfolderitem.page}}</a>
+                <a href="{{site.baseurl}}/{{subfolderitem.url}}">{{subfolderitem.page}}</a>
 
-                </li>
+            </li>
 
-                {% endfor %}
+            {% endfor %}
 
-            </ul>
+        </ul>
 
-        </li>
+    </li>
 
-        {% endfor %}    
+    {% endfor %}    
 
-    </ul>
-    
-</div>
+</ul>

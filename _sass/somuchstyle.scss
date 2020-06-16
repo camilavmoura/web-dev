@@ -1,73 +1,114 @@
 * {
-  padding: 0;
-  margin: 0;
-  font-family: "SF Pro display", Arial;
-  font-weight: 400; }
+    padding: 0;
+    margin: 0;
+    font-family: "SF Pro display", Arial;
+    font-weight: 400; 
+}
 
  
 body {
-  padding: 0;
-  display: flex; }
+    padding: 0;
+    display: flex; 
+}
 
 header {
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 70px;
-  position: fixed;
-  background-color: white;
-  opacity: 90%; }
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 70px;
+    background-color: white;
+    opacity: 90%; 
+    display: flex;
+    position: sticky;
+    justify-content: center;
+}
 
-.logo-img {
-  height: 30px;
-  padding: 20px;
-  background-color: white; }
+.logo {
+    width: 200px;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 68px;
+    text-align: center;
+}
+
+h2 {
+    max-width: 240px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin: 35vh auto 0;
+}
+
 
 main {
-  width: 100vw;
-  margin: 80px auto; }
+    width: 90vw;
+    margin: 40px auto 80px; 
+}
 
 .projetos {
-  width: 90vw;
-  margin: 0 auto;
-  list-style: none;
-  padding: 16px 0; }
+    width: 90vw;
+    margin: 0 auto;
+    list-style: none;
+    padding: 16px 0; 
+}
 
 .projetos h3 {
-  padding: 8px 24px; }
+    animation-name: titles;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate-reverse;
+}
 
 main img {
-  width: 90vw;
-  object-fit: contain; }
+    width: 90vw;
+    object-fit: contain; 
+}
 
 main p {
-  padding: 20px 0; }
+    padding: 20px 0; 
+}
 
 .contacts {
-  background-color: yellow;
-  text-align: center; }
+    background-color: yellow;
+    text-align: center; 
+}
 
 .contacts p {
-  padding: 0;
-  line-height: 32px; }
+    padding: 0;
+    line-height: 32px; 
+}
 
 footer {
-  bottom: 0;
-  left: 0;
-  position: fixed;
-  background-color: white;
-  width: 100vw;
-  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.8); }
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    background-color: white;
+    height: 60px;
+    width: 100vw;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.8); 
+    position: fixed;
+}
+
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+}
 
 .folder-items {
-  width: 30vw;
-  padding: 20px 0;
-  display: inline-block;
-  position: sticky;
-  text-align: center;
-  color: black; }
+    padding: 20px 0;
+    color: black; 
+    list-style: none;
+}
 
 .subfolder-items {
-  display: none; }
+    display: none; 
+}
 
-/*# sourceMappingURL=somuchstyle.css.map */
+@keyframes titles {
+    0% {left: 24px;}
+    100% {right: 24px;}
+}
