@@ -2,13 +2,15 @@
     padding: 0;
     margin: 0;
     font-family: "SF Pro display", Arial;
-    font-weight: 400; 
 }
 
+html {
+    background-image: url(../assets/images/tapete.png);
+}
  
 body {
     padding: 0;
-    display: flex; 
+    display: flex;
 }
 
 header {
@@ -16,12 +18,12 @@ header {
     left: 0;
     width: 100vw;
     height: 70px;
-    background-color: white;
-    opacity: 90%; 
+    background-color: rgba(255, 255, 255, 1);
     display: flex;
     position: sticky;
     justify-content: space-around;
     align-items: center;
+    z-index: 1;
 }
 
 .logo {
@@ -33,12 +35,24 @@ header {
 
 main {
     justify-content: center;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Homepage */
+
+.index {
+    background: white;
+}
+
+.index .logo {
+    width: 30vw;
+    padding-top: 40px;
 }
 
 p .tapete {
     transform: rotate(90deg);
-    object-fit: contain;
-    width: 100%;
+    top: 300px;
+    min-width: 500px;
     position: fixed;
 }
 
@@ -47,7 +61,7 @@ h1 {
     font-size: 68px;
     text-align: center;
     color: #0c0e12;
-    padding-top: 10vh;
+    padding: 10vh 0 10vh;
 }
 
 h2 {
@@ -56,7 +70,7 @@ h2 {
     font-size: 16px;
     text-align: center;
     color: #0c0e12;
-    top: 100px;
+    top: 120px;
     margin: 0 auto;
     display: block;
     position: relative;
@@ -65,48 +79,86 @@ h2 {
 
 main {
     width: 100vw;
-    margin: 40px auto 100px; 
+    margin: 0px auto 140px; 
 }
 
-.projetos {
+/* Navigation between projects (WORK) */
+
+.items-projetos {
     width: 100vw;
     margin: 0 auto;
     list-style: none;
 }
 
-.projetos a {
-    height: 100px;
-    
+li {
+    height: 50vh;
 }
 
-.projetos li {
-    padding: 0;
-    margin: 0;
-}
-
-.projetos h3 {
+.items-projetos h3 {
     position: relative;
     top: 160px;
     color: white;
     text-transform: uppercase;
-    text-shadow: 1px 1px 3px #403a22;
+    text-shadow: 2px 3px 3px #403a22;
     font-weight: bold;
     font-size: 24px;
     text-align: center;
 }
 
-.projetos p {
+.items-projetos p {
     padding: 0;
     margin: 0;
     width: 100vw;
 }
 
-.projetos img {
+.items-projetos img {
     width: 100vw;
     position: inherit;
-    height: 200px;
+    height: 100%;
     object-fit: cover; 
 }
+
+/* Individual projects style */
+
+.anatomic_studies,
+.dead_nature,
+._dirt,
+.drawing_and_editing, 
+.fragility_on_paper,
+.people_in_motion,
+._roof main,
+._smoked,
+.squared_dream {
+    
+    main {
+        width: 100vw;
+        margin-top: 80px;
+    }
+    
+    h2 {
+        text-transform: uppercase;
+        text-shadow: 2px 3px 3px #403a22;
+        font-weight: bold;
+        font-size: 24px;
+        text-align: center;
+        color: white;
+        top: -50px;
+    } 
+    
+    p {
+        padding: 0px 5vw 24px;
+        font-size: 16px;
+        max-width: 400px;
+    }
+    
+    .trabalho {
+        width: 90vw;
+    }
+   
+}
+
+
+/* Contacts */
 
 .contacts {
     background-color: yellow;
@@ -117,6 +169,8 @@ main {
     padding: 0;
     line-height: 32px; 
 }
+
+/* Footer Navigation */
 
 footer {
     bottom: 0;

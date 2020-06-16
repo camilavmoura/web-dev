@@ -1,11 +1,12 @@
 ---
-title: Roof
+title: _roof
 layout: default
 img: tecto1
 category: graphic_design
+date: 2020-1-8
 ---
 
-{:.trabalho}
+## Roof
 
 *Roof* exposes the two poles of social marginality in the urban tissue, that despite its' opposite characteristics and personas, are very much alike.
 
@@ -13,8 +14,8 @@ In a world of absolute social separatism, where capitalism has control over soci
 
 Through this fictional narrative, "Roof — The Urban Wall" (in portuguese *Tecto — Muralha Urbana*) was born. Several artefacts were made, following the creative process from research to conception: an instalation (a project room), four fiction videos (each of which were a conceptual representation of a phase of the fiction) and a production manual, made of four small booklets that revealed the whole progress of the project.
 
-![Page 3 of the 'Tecto' publication]({{site.baseurl}}/assets/images/tecto2.png "'Tecto' publication display")
+![Page 3 of the 'Tecto' publication]({{site.baseurl}}/assets/images/tecto2.png "'Tecto' publication display"){:.trabalho}
 
-![Panphlet of the 'Tecto' project]({{site.baseurl}}/assets/images/tecto3.png "'Tecto' panflet display")
+![Panphlet of the 'Tecto' project]({{site.baseurl}}/assets/images/tecto3.png "'Tecto' panflet display"){:.trabalho}
 
-![Back of the Panphlet of the 'Tecto' project]({{site.baseurl}}/assets/images/tecto4.png "'Tecto' panflet display")
+![Back of the Panphlet of the 'Tecto' project]({{site.baseurl}}/assets/images/tecto4.png "'Tecto' panflet display"){:.trabalho}

@@ -1,6 +1,9 @@
 ---
+title: index
 layout: default
 ---
+
+{:.homepage}
 
 # tapete
 
