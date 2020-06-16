@@ -20,17 +20,34 @@ header {
     opacity: 90%; 
     display: flex;
     position: sticky;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .logo {
-    width: 200px;
+    justify-content: space-around;
+    padding-top: 0px;
+    width: 60px;
+    display: flex;
+}
+
+main {
+    justify-content: center;
+}
+
+p .tapete {
+    transform: rotate(90deg);
+    object-fit: contain;
+    width: 100%;
+    position: fixed;
 }
 
 h1 {
     font-weight: 200;
     font-size: 68px;
     text-align: center;
+    color: #0c0e12;
+    padding-top: 10vh;
 }
 
 h2 {
@@ -38,37 +55,57 @@ h2 {
     font-weight: 400;
     font-size: 16px;
     text-align: center;
-    margin: 35vh auto 0;
+    color: #0c0e12;
+    top: 100px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
 }
 
 
 main {
-    width: 90vw;
-    margin: 40px auto 80px; 
+    width: 100vw;
+    margin: 40px auto 100px; 
 }
 
 .projetos {
-    width: 90vw;
+    width: 100vw;
     margin: 0 auto;
     list-style: none;
-    padding: 16px 0; 
+}
+
+.projetos a {
+    height: 100px;
+    
+}
+
+.projetos li {
+    padding: 0;
+    margin: 0;
 }
 
 .projetos h3 {
-    animation-name: titles;
-    animation-duration: 30s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: both;
-    animation-direction: alternate-reverse;
+    position: relative;
+    top: 160px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px #403a22;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
 }
 
-main img {
-    width: 90vw;
-    object-fit: contain; 
+.projetos p {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
 }
 
-main p {
-    padding: 20px 0; 
+.projetos img {
+    width: 100vw;
+    position: inherit;
+    height: 200px;
+    object-fit: cover; 
 }
 
 .contacts {
@@ -89,7 +126,6 @@ footer {
     height: 60px;
     width: 100vw;
     box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.8); 
-    position: fixed;
 }
 
 
@@ -98,9 +134,16 @@ footer {
     justify-content: space-around;
 }
 
+.nav-list a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    
+}
+
 .folder-items {
     padding: 20px 0;
-    color: black; 
     list-style: none;
 }
 

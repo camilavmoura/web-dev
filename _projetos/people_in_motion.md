@@ -5,6 +5,8 @@ img: IMG_3538
 category: graphic_design
 ---
                 
+{:.trabalho}
+
 *People in Motion* was a project in which — after the free selecion of a playlist — was made a *packaging* in a "Special Edition" mode, that would conjugate with the playlist's theme itself.
 
 A list of songs from the 60-70's were selected, thus establishing the theme of the project: The Hippie Activism movement. This had a huge impact in History when it comes to social justice and all the sub-categories that it comes along with, such as freedom of speech, anti-racist movements, anti-war movements, the uprising of feminism, among many others.

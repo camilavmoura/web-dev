@@ -5,6 +5,8 @@ img: 14
 category: experimental_work
 ---
 
+{:.trabalho}
+
 What is there beyond dreams? Beyond the imagination, beyond thought?
 
 There is no colour; there is no shape; there is no space — there is nothing. There is everything.

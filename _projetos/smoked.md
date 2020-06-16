@@ -5,6 +5,8 @@ img: fotograma3
 category: photography
 ---
 
+{:.trabalho}
+
 The cigarette is one of the biggest global vices. Is it the pleasureable smoke entering the lungs? Is the the tingleing sensation you get in your fingers that so naturally interlace the cigarette?
 
 This smoke arises purely of the satisfaction that is oh so procured, but it merely opens us the gates of death — is this expendable, or is it the real and mysterious essence of this unexplainable joy? Is smoke really as abstract and indefined as we see it, or is it as tameable as we are? Reproductible, banal?

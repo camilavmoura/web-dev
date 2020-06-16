@@ -5,6 +5,8 @@ img: 6
 category: drawing_and_painting
 ---
 
+{:.trabalho}
+
 Keeping faithful to the beauty of dead nature, it was asked to make a colection of experimental pieces where — with dfierents styles and techniques — graphic exploration was used as method and application.
 
 ![Painting of a stick with lots of baby leaves — China Ink]({{site.baseurl}}/assets/images/6.png "Stuck — done in China Ink")

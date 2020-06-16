@@ -5,6 +5,8 @@ img: 10
 category: drawing_and_painting
 ---
 
+{:.trabalho}
+
 Simple portraits (both fontal and profile perspectives) as a corporal anatomy study, avoiding representations of the idealization of the Human body and keeping up with real proportions.
 
 ![Collection of 4 anatomic studies/paintings — a foot, a hand, a female and a male face — Graphite, Watercolour and Charcoal]({{site.baseurl}}/assets/images/10.png "A collection of paintings done with watercolour and charcoal (a foot, a hand, a female and a male face)")
