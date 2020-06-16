@@ -3,8 +3,6 @@ title: index
 layout: default
 ---
 
-{:.homepage}
-
 # tapete
 
 ## 'Tapete' means *carpet* in portuguese — and this is mine.
