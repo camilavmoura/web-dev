@@ -1,5 +1,8 @@
-exclude: [README.md]
-exclude: [assets/css/somuchstyle.css]
+exclude: [categoria.html]
+exclude: [drawing_and_painting.html] 
+exclude: [photography.html] 
+exclude: [graphic_design.html] 
+exclude: [experimental_work.html] 
 
 title: Tapete — Portfolio
 email: camilavilelam@gmail.com

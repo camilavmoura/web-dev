@@ -1,7 +1,33 @@
+@mixin background-desktop {
+    background-image: url(../assets/images/tapete.png); 
+    background-size: 40% auto;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-position: left center;
+    
+}
+
+@mixin logo-desktop {
+    .logo {
+        margin: 0;
+        position: relative;
+            
+        #logo1, #logo2, #logo3 {
+            width: 80px;
+            height: 80px;
+            margin: 0;
+        }
+    } 
+    
+}
+
+/* Base */
+
 * {
     padding: 0;
     margin: 0;
     font-family: "SF Pro display", Arial;
+    font-weight: 300;
     line-height: 26px;
     font-size: 16px;
 }
@@ -13,7 +39,7 @@ html {
  
 body {
     padding: 0;
-    display: flex;
+    margin: 0;
 }
 
 header {
@@ -29,13 +55,13 @@ header {
     z-index: 1;
     
     .logo {
-    justify-content: space-around;
-    width: 50px;
-    display: flex;
+        justify-content: space-around;
+        width: 50px;
+        display: flex;
     
         #logo1, #logo2, #logo3 {
             animation: logo 30s linear 0s infinite forwards;
-            transform-origin: 50% 50%;
+            transform-origin: center;
         }
     }
 }
@@ -44,7 +70,15 @@ main {
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.9);
     width: 100vw;
-    margin: 0px auto 140px; 
+    margin: 0px auto;
+    
+    .logo {
+        display: none;
+    }
+    
+    .logo-item {
+        display: none;
+    }
 }
 
 /* Homepage */
@@ -52,12 +86,15 @@ main {
 .index {
     background: white;
     
+    main {
+        height: 100vh;
+    }
+    
     .logo {
         width: 80px;
         height: 80px;
-        margin-top: 30px;
-    }
-    
+        padding-top: 32px;
+    }   
 }
 
 h1 {
@@ -92,12 +129,11 @@ p .tapete {
 .about {
     
     body {
-        height: 100vh;
+        height: 100%;
     }
     
     main {
-        width: 90vw;
-        padding-bottom: 40px;
+        padding-bottom: 100px;
         
         h3 {
             padding: 32px 20px 0;
@@ -107,19 +143,20 @@ p .tapete {
         
         ul {
             list-style: none;
-            max-width: 400px;
+            max-width: 500px;
             padding: 24px 24px;
         }
         
         li {
             text-align: center;
             height: auto;
-            line-height: 26px;
+            margin-bottom: 12px;
+            line-height: 24px;
         }
     }
     
     p {
-        max-width: 400px;
+        max-width: 500px;
         padding: 10px 20px;
         
         img.photo {
@@ -153,7 +190,6 @@ p .tapete {
         height: 100%;
         object-fit: cover; 
     }
- 
 }
 
 li {
@@ -168,12 +204,11 @@ li {
 .drawing_and_editing, 
 .fragility_on_paper,
 .people_in_motion,
-._roof main,
+._roof,
 ._smoked,
 .squared_dream {
     
     main {
-        width: 100vw;
         margin-top: 80px;
     }
 
@@ -193,7 +228,11 @@ li {
         max-width: 400px;
     }
     
-    .trabalho {
+    p:last-of-type {
+        padding-bottom: 100px;
+    }
+    
+    img.trabalho {
         width: 90vw;
     }
    
@@ -202,23 +241,29 @@ li {
 
 /* Contacts */
 
-.contacts {
+.contacts { 
     background: white;
+    
+    main  {
+        background: white;
+        height: 100%;
+    }
     
     .logo {
         width: 80px;
         height: 80px;
-        margin-top: 30px;
+        padding-top: 32px;
     }
     
     .contacts-container {
         text-align: center;
         display: block;
-        margin-top: 200px;
+        margin-top: 180px;
+        padding: 20px 0;
     
         h3 {
-            text-transform: uppercase;
-            font-weight: 400;
+            font-size: 32px;
+            font-weight: 300;
             padding-bottom: 16px;
         } 
     
@@ -227,12 +272,12 @@ li {
         }
     
         p:nth-child(4) {
-            padding-top: 10px;
+            padding-bottom: 10px;
         }
     }
     
     .connects svg {
-        padding: 10px 4px 30px;
+        padding: 16px 4px 16px;
         width: 40px;
         height: 32px;
     }
@@ -247,7 +292,6 @@ footer {
     background-color: white;
     height: 60px;
     width: 100vw;
-    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.8); 
     
     .nav-list {
         display: flex;
@@ -262,6 +306,8 @@ footer {
         text-decoration: none;
         text-transform: uppercase;
         font-size: 14px;
+        font-weight: 400;
+        
     }
         
     .folder-items {
@@ -276,7 +322,214 @@ footer {
 }
 
 @keyframes logo {
-    0% {transform: rotate(0deg)};
-    50% {transform: rotate(180deg)};
-    100% {transform: rotate(360deg)};
+    from {transform: rotate(0deg)};
+    to {transform: rotate(360deg)};
 }
+
+
+@media (min-width: 650px) {
+    
+    /* Base */
+    
+    .grid {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "header header main main main"
+            "header header main main main"
+            "tapete tapete main main main"
+            "footer footer main main main"
+            "footer footer main main main"
+    }
+
+    header {
+        position: fixed;
+        grid-area: header;
+        top: 0;
+        width: 40vw;
+        height: 140px;
+        @include logo-desktop;
+    } 
+ 
+    
+    p .tapete {
+        display: none;
+    }
+  
+    main {
+        grid-area: main;
+        width: 60vw;
+        background-color: white;
+        height: 100%;
+    }
+    
+    /* Homepage */
+    
+    .index {
+        text-align: center;
+        @include background-desktop;  
+        
+        header {
+            width: 100vw;
+            background-color: rgba(255, 255, 255, 0);
+            
+            .logo {
+                display: none;
+            }
+        }
+        
+        h1 {
+            font-size: 80px;
+        }
+        
+        h2 {
+            margin-top: 80px;
+        }
+        
+        p {
+            display: inline-block;
+        }
+        
+        .logo-item {
+            display: block;
+        }
+    }
+    
+    /* Work */
+    
+    .work {
+        background-image: none;
+        @include logo-desktop;
+        
+        img.trabalho {
+            width: 60vw;
+        }
+    }
+    
+    .items-projetos {
+        width: 60vw;
+        
+        img {
+            width: 60vw;
+            transition: width 2s;
+        }
+        
+        img:hover {
+            width: 64vw;
+        }
+    }
+    
+    .anatomic_studies, 
+    .dead_nature, 
+    ._dirt, 
+    .drawing_and_editing, 
+    .fragility_on_paper, 
+    .people_in_motion, 
+    ._roof, 
+    ._smoked, 
+    .squared_dream {
+        @include background-desktop;
+        
+        main {
+            background-color: white;
+            width: 60vw;
+            height: 100%;
+            margin-top: 0;
+        }
+        
+        h2 {
+            display: none;
+        }
+        
+        img.trabalho {
+            width: 50vw;
+        }
+        
+        p:first-of-type {
+            margin-top: 32px;
+        }
+    }
+    
+    /* About */
+    
+    .about {
+        padding-top: 10px;
+        @include background-desktop;
+        
+        p { 
+            margin: 0 auto;
+        }
+        
+        p:nth-child(4) {
+                padding: 0 0 20px;
+                margin: 0;
+            
+                img {
+                    padding-top: 10px;
+                    width: 60vw;
+                }
+            } 
+        
+        ul {
+            margin: 0 auto;
+        }
+    }
+    
+    /* Contacts */
+    
+    .contacts {
+        text-align: center;
+        @include background-desktop;
+        
+        main {
+            height: 100%;
+            width: 60vw;
+        }
+      
+        .contacts-container {
+            
+            h3 {
+                font-size: 40px;
+                text-transform: none;
+                font-weight: 200;
+                padding-bottom: 32px;
+            }
+            
+            p:nth-child(3) {
+                padding-bottom: 20px;
+            }
+            
+            svg {
+                transition: color 2s linear 0;
+            }
+            
+            svg:hover {
+                fill: #BF5400;
+            }
+        }
+        
+        .logo {
+            padding-top: 0;
+        }
+    }
+    
+    footer {
+        grid-area: footer;
+        width: 40vw;
+        
+        a:hover {
+            padding: 20px 10px;
+            color: #BF5400;
+        }
+    }
+}
+
+@keyframes hover {
+    0% {transform: scale(100%)};
+    50% {transform: scale(102%)};
+    100% {transform: scale(104%)};
+}
+ 

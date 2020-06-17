@@ -3,12 +3,11 @@ title: about
 layout: default
 ---
 
-![Photo of a blonde smmiling girl with small eyes]({{site.baseurl}}/assets/images/lel1.png "Me"){:.photo}
-
-
 First of all, welcome!
 
 My name is Camila, and I am currently doing a post-graduation in *Digital Experience Design*, in Lisbon.
+
+![Photo of a blonde smmiling girl with small eyes]({{site.baseurl}}/assets/images/lel1.png "Me"){:.photo}
 
 ### FORMATION
 - Graduated Communication Design in Faculdade de Belas-Artes of ULisboa

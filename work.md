@@ -1,3 +1,4 @@
 ---
+title: work
 layout: projeto
 ---
