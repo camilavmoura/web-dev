@@ -1,3 +1,7 @@
+@import "numbers";
+
+@import "colors";
+    
 @mixin background-desktop {
     background-image: url(../assets/images/tapete.png); 
     background-size: 40% auto;
@@ -13,39 +17,42 @@
         position: relative;
             
         #logo1, #logo2, #logo3 {
-            width: 80px;
-            height: 80px;
+            width: $icon_big-width;
+            height: 100px;
             margin: 0;
         }
     } 
-    
+}
+
+@mixin no_padding_or_margin {
+    padding: 0;
+    margin: 0;
 }
 
 /* Base */
 
 * {
-    padding: 0;
-    margin: 0;
+    @include no_padding_or_margin;
     font-family: "SF Pro display", Arial;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 26px;
-    font-size: 16px;
+    font-size: $fontastic;
+    color: $font-color;
 }
 
 html {
     background-image: url(../assets/images/tapete.png);
-    background-size: cover;
+    background-size: 100% auto;
 }
  
 body {
-    padding: 0;
-    margin: 0;
+    @include no_padding_or_margin;
 }
 
 header {
     top: 0;
     left: 0;
-    width: 100vw;
+    width: $hundred-views-width;
     height: 70px;
     background-color: rgba(255, 255, 255, 1);
     display: flex;
@@ -69,14 +76,14 @@ header {
 main {
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.9);
-    width: 100vw;
+    width: $hundred-views-width;
     margin: 0px auto;
     
-    .logo {
+    .logo-item {
         display: none;
     }
     
-    .logo-item {
+    .logo {
         display: none;
     }
 }
@@ -87,13 +94,13 @@ main {
     background: white;
     
     main {
-        height: 100vh;
+        height: 100%;
     }
     
     .logo {
-        width: 80px;
-        height: 80px;
-        padding-top: 32px;
+        width: $icon_big-width;
+        height: $icon_big-width;
+        padding-top: $eye-candy;
     }   
 }
 
@@ -101,16 +108,15 @@ h1 {
     font-weight: 200;
     font-size: 68px;
     text-align: center;
-    color: #0c0e12;
+    color: $font-color;
     padding: 18vh 0 10vh;
 }
 
 h2 {
     max-width: 240px;
-    font-weight: 400;
-    font-size: 16px;
+    font-size: $fontastic;
     text-align: center;
-    color: #0c0e12;
+    color: $font-color;
     top: 120px;
     margin: 0 auto;
     display: block;
@@ -120,7 +126,7 @@ h2 {
 p .tapete {
     transform: rotate(90deg);
     top: 300px;
-    min-width: 500px;
+    min-width: $half-a-grand;
     position: fixed;
 }
 
@@ -133,34 +139,34 @@ p .tapete {
     }
     
     main {
-        padding-bottom: 100px;
+        padding: $icon_medium-width 0 100px;
         
         h3 {
-            padding: 32px 20px 0;
+            padding: $eye-candy 20px 0;
             font-weight: 500;
             text-align: center;
         }
         
         ul {
             list-style: none;
-            max-width: 500px;
-            padding: 24px 24px;
+            max-width: $half-a-grand;
+            padding: $visual-pleaser;
         }
         
         li {
             text-align: center;
             height: auto;
             margin-bottom: 12px;
-            line-height: 24px;
+            line-height: $visual-pleaser;
         }
     }
     
     p {
-        max-width: 500px;
-        padding: 10px 20px;
+        max-width: $half-a-grand;
+        padding: $common-padding 20px;
         
         img.photo {
-            width: 80vw;
+            width: 100%;
         }
     }
 
@@ -169,7 +175,7 @@ p .tapete {
 /* Navigation between projects (WORK) */
 
 .items-projetos {
-    width: 100vw;
+    width: $hundred-views-width;
     margin: 0 auto;
     list-style: none;
     
@@ -178,14 +184,14 @@ p .tapete {
         top: 160px;
         color: white;
         text-transform: uppercase;
-        text-shadow: 2px 3px 3px #403a22;
+        text-shadow: 2px 3px 3px $orangina;
         font-weight: bold;
-        font-size: 24px;
+        font-size: $visual-pleaser;
         text-align: center;
     }
     
     img {
-        width: 100vw;
+        width: $hundred-views-width;
         position: inherit;
         height: 100%;
         object-fit: cover; 
@@ -209,22 +215,22 @@ li {
 .squared_dream {
     
     main {
-        margin-top: 80px;
+        margin-top: $icon_big-width;
     }
 
     h2 {
         text-transform: uppercase;
         text-shadow: 2px 3px 3px #403a22;
         font-weight: bold;
-        font-size: 24px;
+        font-size: $visual-pleaser;
         text-align: center;
         color: white;
         top: -50px;
     } 
     
     p {
-        padding: 0px 5vw 24px;
-        font-size: 16px;
+        padding: 0px 5vw $visual-pleaser;
+        font-size: $fontastic;
         max-width: 400px;
     }
     
@@ -250,9 +256,9 @@ li {
     }
     
     .logo {
-        width: 80px;
-        height: 80px;
-        padding-top: 32px;
+        width: $icon_big-width;
+        height: $icon_big-width;
+        padding-top: $eye-candy;
     }
     
     .contacts-container {
@@ -262,9 +268,9 @@ li {
         padding: 20px 0;
     
         h3 {
-            font-size: 32px;
+            font-size: $eye-candy;
             font-weight: 300;
-            padding-bottom: 16px;
+            padding-bottom: $fontastic;
         } 
     
         p {
@@ -272,14 +278,14 @@ li {
         }
     
         p:nth-child(4) {
-            padding-bottom: 10px;
+            padding-bottom: $common-padding;
         }
     }
     
     .connects svg {
-        padding: 16px 4px 16px;
-        width: 40px;
-        height: 32px;
+        padding: $fontastic 4px $fontastic;
+        width: $icon_medium-width;
+        height: $eye-candy;
     }
 }
 
@@ -291,7 +297,7 @@ footer {
     position: fixed;
     background-color: white;
     height: 60px;
-    width: 100vw;
+    width: $hundred-views-width;
     
     .nav-list {
         display: flex;
@@ -320,12 +326,6 @@ footer {
         }
     }
 }
-
-@keyframes logo {
-    from {transform: rotate(0deg)};
-    to {transform: rotate(360deg)};
-}
-
 
 @media (min-width: 650px) {
     
@@ -361,7 +361,7 @@ footer {
   
     main {
         grid-area: main;
-        width: 60vw;
+        width: $desktop-main;
         background-color: white;
         height: 100%;
     }
@@ -373,7 +373,7 @@ footer {
         @include background-desktop;  
         
         header {
-            width: 100vw;
+            width: $hundred-views-width;
             background-color: rgba(255, 255, 255, 0);
             
             .logo {
@@ -382,11 +382,11 @@ footer {
         }
         
         h1 {
-            font-size: 80px;
+            font-size: $icon_big-width;
         }
         
         h2 {
-            margin-top: 80px;
+            margin-top: $icon_big-width;
         }
         
         p {
@@ -395,6 +395,8 @@ footer {
         
         .logo-item {
             display: block;
+            width: 120px;
+            height: 140px;
         }
     }
     
@@ -405,15 +407,15 @@ footer {
         @include logo-desktop;
         
         img.trabalho {
-            width: 60vw;
+            width: $desktop-main;
         }
     }
     
     .items-projetos {
-        width: 60vw;
+        width: $desktop-main;
         
         img {
-            width: 60vw;
+            width: $desktop-main;
             transition: width 2s;
         }
         
@@ -435,7 +437,7 @@ footer {
         
         main {
             background-color: white;
-            width: 60vw;
+            width: $desktop-main;
             height: 100%;
             margin-top: 0;
         }
@@ -449,14 +451,14 @@ footer {
         }
         
         p:first-of-type {
-            margin-top: 32px;
+            margin-top: $eye-candy;
         }
     }
     
     /* About */
     
     .about {
-        padding-top: 10px;
+        padding-top: $common-padding;
         @include background-desktop;
         
         p { 
@@ -468,8 +470,8 @@ footer {
                 margin: 0;
             
                 img {
-                    padding-top: 10px;
-                    width: 60vw;
+                    padding-top: $common-padding;
+                    width: $desktop-main;
                 }
             } 
         
@@ -486,16 +488,16 @@ footer {
         
         main {
             height: 100%;
-            width: 60vw;
+            width: $desktop-main;
         }
       
         .contacts-container {
             
             h3 {
-                font-size: 40px;
+                font-size: $icon_medium-width;
                 text-transform: none;
                 font-weight: 200;
-                padding-bottom: 32px;
+                padding-bottom: $eye-candy;
             }
             
             p:nth-child(3) {
@@ -507,7 +509,7 @@ footer {
             }
             
             svg:hover {
-                fill: #BF5400;
+                fill: $orangina;
             }
         }
         
@@ -521,15 +523,20 @@ footer {
         width: 40vw;
         
         a:hover {
-            padding: 20px 10px;
-            color: #BF5400;
+            padding: 20px $common-padding;
+            color: $orangina;
         }
     }
 }
 
+
+@keyframes logo {
+    from {transform: rotate(0deg)};
+    to {transform: rotate(360deg)};
+}
+
 @keyframes hover {
-    0% {transform: scale(100%)};
-    50% {transform: scale(102%)};
-    100% {transform: scale(104%)};
+    from {transform: scale(100%)};
+    to {transform: scale(104%)};
 }
  
