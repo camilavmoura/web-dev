@@ -18,8 +18,6 @@ Simple portraits (both fontal and profile perspectives) as a corporal anatomy st
 
 ![Anatomic studies/paintings — a female profile face — Graphite"]({{site.baseurl}}/assets/images/19.png "A female profile view done with graphite"){:.trabalho}
 
-![Anatomic studies/paintings — a clawed hand — Graphite"]({{site.baseurl}}/assets/images/20.png "A clawed hand done with graphite"){:.trabalho}
-
 ![Anatomic studies/paintings — a hand in which the thumb is touching the ring finger, and holding the rest of them up — Graphite"]({{site.baseurl}}/assets/images/21.png "A hand done with graphite"){:.trabalho}
 
 ![Anatomic studies/paintings — a left hand holding a right hand's wrist — Graphite"]({{site.baseurl}}/assets/images/22.png "A left hand holding a right hand's wrist done in charcoal and graphite"){:.trabalho}
