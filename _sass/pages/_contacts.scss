@@ -1,0 +1,97 @@
+/* Contacts */
+
+.contacts { 
+    background: white;
+   
+    header {
+        
+        #logo1, #logo2, #logo3 {
+            width: $icon_medium-width;
+            height: $icon_medium-width;
+            margin-top: 100px;
+        }
+    }
+    
+    main  {
+        background: white;
+        height: 100%;
+    }
+    
+    .logo {
+        width: $icon_medium-width;
+        height: $icon_medium-width;
+        padding-top: $eye-candy;
+    }
+    
+    .contacts-container {
+        text-align: center;
+        display: block;
+        margin-top: 160px;
+        padding: 20px 0;
+    
+        h3 {
+            font-size: $eye-candy;
+            font-weight: 300;
+            padding-bottom: $fontastic;
+        } 
+    
+        p {
+            line-height: 28px;
+        }
+    
+        p:nth-child(4) {
+            padding-bottom: $common-padding;
+        }
+    }
+    
+    .connects svg {
+        padding: $fontastic 4px $fontastic;
+        width: $icon_small-width;
+        height: $eye-candy;
+    }
+}
+
+@media (min-width: 650px) {
+     
+    /* Desktop */
+    
+    .contacts {
+        text-align: center;
+        @include background-desktop;
+        
+        header {
+            display: none;
+        }
+        
+        main {
+            height: 100%;
+            width: $desktop-main;
+        }
+      
+        .contacts-container {
+            
+            h3 {
+                font-size: $icon_small-width;
+                text-transform: none;
+                font-weight: 200;
+                padding-bottom: $eye-candy;
+            }
+            
+            p:nth-child(3) {
+                padding-bottom: 20px;
+            }
+            
+            svg {
+                transition: color 2s linear 0;
+            }
+            
+            svg:hover {
+                fill: $orangina;
+            }
+        }
+        
+        .logo-container {
+            padding-top: 0;
+        }
+    }
+}

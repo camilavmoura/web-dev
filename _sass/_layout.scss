@@ -1,0 +1,64 @@
+@import "layout/header";
+@import "layout/navigation";
+
+* {
+    @include no_padding_or_margin;
+    font-family: "SF Pro display", Arial;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: $fontastic;
+    color: $font-color;
+}
+
+html {
+    background-image: url(../assets/images/tapete.png);
+    background-size: 100% auto;
+}
+ 
+body {
+    @include no_padding_or_margin;
+}
+
+main {
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: $hundred-views-width;
+    margin: 0px auto;
+    
+    .logo-container {
+        display: none;
+    }
+}
+
+
+
+
+@media (min-width: 650px) {
+    
+    /* Base */
+    
+    .grid {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "header header main main main"
+            "header header main main main"
+            "tapete tapete main main main"
+            "footer footer main main main"
+            "footer footer main main main"
+    }
+    
+    p .tapete {
+        display: none;
+    }
+  
+    main {
+        grid-area: main;
+        width: $desktop-main;
+        background-color: white;
+        height: 100%;
+    }
+}

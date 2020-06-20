@@ -1,0 +1,78 @@
+/* Individual Project */
+
+.anatomic_studies,
+.dead_nature,
+._dirt,
+.drawing_and_editing, 
+.fragility_on_paper,
+.people_in_motion,
+._roof,
+._smoked,
+.squared_dream {
+    
+    main {
+        margin-top: $icon_medium-width;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        text-shadow: 2px 3px 3px $orangina;
+        font-weight: bold;
+        font-size: $visual-pleaser;
+        text-align: center;
+        color: white;
+        top: -50px;
+    } 
+    
+    p {
+        padding: 0px 5vw $visual-pleaser;
+        font-size: $fontastic;
+        max-width: 400px;
+    }
+    
+    p:last-of-type {
+        padding-bottom: 100px;
+    }
+    
+    img.trabalho {
+        width: 90vw;
+    }
+   
+}
+
+@media (min-width: 650px) {
+    
+    /* Desktop */
+    
+    .anatomic_studies, 
+    .dead_nature, 
+    ._dirt, 
+    .drawing_and_editing, 
+    .fragility_on_paper, 
+    .people_in_motion, 
+    ._roof, 
+    ._smoked, 
+    .squared_dream {
+        
+        @include background-desktop;
+
+        main {
+            background-color: white;
+            width: $desktop-main;
+            height: 100%;
+            margin-top: 0;
+        }
+
+        h2 {
+            display: none;
+        }
+
+        img.trabalho {
+            width: 50vw;
+        }
+
+        p:first-of-type {
+            margin-top: $eye-candy;
+        }
+    }
+}

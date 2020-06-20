@@ -1,0 +1,55 @@
+/* Work (subnav) */
+
+.items-projetos {
+    width: $hundred-views-width;
+    margin: 0 auto;
+    list-style: none;
+    
+    h3 {
+        position: relative;
+        top: 160px;
+        color: white;
+        text-transform: uppercase;
+        text-shadow: 2px 3px 3px $orangina;
+        font-weight: bold;
+        font-size: $visual-pleaser;
+        text-align: center;
+    }
+    
+    img {
+        width: $hundred-views-width;
+        position: inherit;
+        height: 100%;
+        object-fit: cover; 
+    }
+}
+
+li {
+    height: 50vh;
+}
+
+@media (min-width: 650px) {
+    
+    /* Work */
+    
+    .work {
+        background-image: none;
+        
+        img.trabalho {
+            width: $desktop-main;
+        }
+    }
+    
+    .items-projetos {
+        width: $desktop-main;
+        
+        img {
+            width: $desktop-main;
+            transition: width 2s;
+        }
+        
+        img:hover {
+            width: 64vw;
+        }
+    }
+}

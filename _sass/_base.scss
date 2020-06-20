@@ -1,0 +1,29 @@
+@import "numbers";
+
+@import "colors";
+    
+@mixin background-desktop {
+    background-image: url(../assets/images/tapete.png); 
+    background-size: 40% auto;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-position: left center;
+    
+}
+
+@mixin no_padding_or_margin {
+    padding: 0;
+    margin: 0;
+}
+
+
+@keyframes logo {
+    from {transform: rotate(0deg)};
+    to {transform: rotate(360deg)};
+}
+
+@keyframes hover {
+    from {transform: scale(100%)};
+    to {transform: scale(104%)};
+}
+ 
