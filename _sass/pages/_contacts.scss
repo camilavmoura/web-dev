@@ -54,7 +54,7 @@
 @media (min-width: 650px) {
      
     /* Desktop */
-    
+
     .contacts {
         text-align: center;
         @include background-desktop;
@@ -66,9 +66,23 @@
         main {
             height: 100%;
             width: $desktop-main;
+            
+            .logo1, .logo2, .logo3 {
+                display: inline-block;
+                width: $icon_big-width;
+                height: $icon_big-width;
+                animation: logo 30s linear 0s infinite forwards;
+                transform-origin: center;
+                padding-top: 10px;
+            }
+            
+            .logo1 {
+                padding-top: 50px;
+            }
         }
       
         .contacts-container {
+            margin-top: 40px;
             
             h3 {
                 font-size: $icon_small-width;
@@ -88,10 +102,6 @@
             svg:hover {
                 fill: $orangina;
             }
-        }
-        
-        .logo-container {
-            padding-top: 0;
         }
     }
 }
