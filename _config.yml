@@ -1,9 +1,3 @@
-exclude: [categoria.html]
-exclude: [drawing_and_painting.html] 
-exclude: [photography.html] 
-exclude: [graphic_design.html] 
-exclude: [experimental_work.html] 
-
 title: Tapete — Portfolio
 email: camilavilelam@gmail.com
 description: This is the portfolio of Camila Moura, which was designed and programme from scratch using HTML, SCSS, Jekyll and Github.
