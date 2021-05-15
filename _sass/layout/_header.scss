@@ -21,6 +21,10 @@ header {
             animation: logo 30s linear 0s infinite forwards;
             transform-origin: center;
         }
+
+        p {
+            display: none;
+        }
     }
 }
 
